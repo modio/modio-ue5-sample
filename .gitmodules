@@ -1,0 +1,3 @@
+[submodule "Plugins/Modio"]
+	path = Plugins/Modio
+	url = https://github.com/modio/modio-ue4.git

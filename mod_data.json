@@ -1,0 +1,8 @@
+{
+  "CardBackTexturePath": "CardBackImage.jpg",
+  "BackgroundTexturePath": "BackgroundImage.jpg",
+  "NumOfRequiredMatches": 3,
+  "NumOfCards": 12,
+  "EnableBlackCardFeature": false,
+  "EnableHintFeature": true
+}
