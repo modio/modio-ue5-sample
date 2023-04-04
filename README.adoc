@@ -19,13 +19,13 @@ Once you check out the repository, you can simply launch the project in your cho
 
 The sample project is a memory game where the player must reveal the same cards. The game was implemented using modern techniques, including the following plugins:
 
-1. CommonUI: for interacting with the user interface.
-2. ModularGameplay & GameFeatures: for better modularity, in particular, the ModdingFeature, BlackCardFeature, and HintFeature features are implemented with them.
-    a. ModdingFeature: to load mods and interact with them, encapsulating the mod.io plugin.
-    b. BlackCardFeature: to implement the black card feature. This feature should be activated by a mod.
-    c. HintFeature: to implement the hint feature. This feature should be activated by a mod.
-3. EnhancedInput: to interact with gameplay.
-4. JsonBlueprintUtilities: for parsing JSON mod data.
+1. **CommonUI**: for interacting with the user interface.
+2. **ModularGameplay** & **GameFeatures**: for better modularity, in particular, the **ModdingFeature**, **BlackCardFeature**, and **HintFeatur**e features are implemented with them.
+    a. **ModdingFeature**: to load mods and interact with them, encapsulating the mod.io plugin.
+    b. **BlackCardFeature**: to implement the black card feature. This feature should be activated by a mod.
+    c. **HintFeature**: to implement the hint feature. This feature should be activated by a mod.
+3. **EnhancedInput**: to interact with gameplay.
+4. **JsonBlueprintUtilities**: for parsing JSON mod data.
 
 The game works well on both console and PC.
 
