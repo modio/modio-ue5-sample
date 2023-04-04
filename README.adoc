@@ -1,0 +1,48 @@
+++++
+<a href="https://mod.io"><img src="https://static.mod.io/v1/images/branding/modio-color-dark.svg" alt="mod.io" width="360" align="right"/></a>
+++++
+# mod.io Unreal Sample Project
+
+image:https://img.shields.io/badge/license-MIT-brightgreen.svg[alt="License", link="https://github.com/modio/modio-sdk/blob/master/LICENSE"]
+image:https://img.shields.io/discord/389039439487434752.svg?label=Discord&logo=discord&color=7289DA&labelColor=2C2F33[alt="Discord", link="https://discord.mod.io"]
+image:https://img.shields.io/badge/Unreal-5.0%2B-dea309[alt="Unreal", link="https://www.unrealengine.com"]
+
+Welcome to the mod.io Unreal Engine Sample Project repository. This repository provides a simple example integration of the mod.io Unreal Engine plugin for projects built with Unreal Engine 5.0 or later. The sample project is Blueprint-only and demonstrates the core functionality of the mod.io plugin.
+
+== Installation
+
+Its recommended that you do a full git checkout, as the latest version of the mod.io plugin is included as a submodule. 
+
+Once you check out the repository, you can simply launch the project in your choice of engine version (5.0 or later is supported) and Play In Editor to see the sample in action.
+
+== Overview
+
+The sample project is a memory game where the player must reveal the same cards. The game was implemented using modern techniques, including the following plugins:
+
+1. CommonUI: for interacting with the user interface.
+2. ModularGameplay & GameFeatures: for better modularity, in particular, the ModdingFeature, BlackCardFeature, and HintFeature features are implemented with them.
+    a. ModdingFeature: to load mods and interact with them, encapsulating the mod.io plugin.
+    b. BlackCardFeature: to implement the black card feature. This feature should be activated by a mod.
+    c. HintFeature: to implement the hint feature. This feature should be activated by a mod.
+3. EnhancedInput: to interact with gameplay.
+4. JsonBlueprintUtilities: for parsing JSON mod data.
+
+The game works well on both console and PC.
+
+== Modding
+
+In this game, modding is done by providing a `mod_data.json` file that adheres to the following JSON schema:
+```json
+{
+  "BackgroundTexturePath": "BackgroundImage.jpg",
+  "NumOfCardsPerMatch": 2,
+  "NumOfCards": 12,
+  "EnableBlackCardFeature": false,
+  "EnableHintFeature": false
+}
+```
+
+This file specifies the mod's settings, such as the path to the background texture, the number of required cards to match, and whether to enable the black card and hint features. You can find examples of mods on the https://mod.io/g/memory-demo[mod.io game page].
+
+== Other Repositories
+Our aim with https://mod.io[mod.io], is to provide an https://docs.mod.io[open modding API]. You are welcome to https://github.com/modio[view, fork and contribute to our other codebases] in use.

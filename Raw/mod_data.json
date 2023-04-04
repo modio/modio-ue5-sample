@@ -1,6 +1,6 @@
 {
   "BackgroundTexturePath": "BackgroundImage.jpg",
-  "NumOfRequiredMatches": 3,
+  "NumOfCardsPerMatch": 3,
   "NumOfCards": 12,
   "EnableBlackCardFeature": false,
   "EnableHintFeature": true

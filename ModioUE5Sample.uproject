@@ -12,13 +12,6 @@
 	],
 	"Plugins": [
 		{
-			"Name": "ModelingToolsEditorMode",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
-		},
-		{
 			"Name": "CommonUI",
 			"Enabled": true
 		},
@@ -29,15 +22,6 @@
 		{
 			"Name": "GameFeatures",
 			"Enabled": true
-		},
-		{
-			"Name": "JsonBlueprintUtilities",
-			"Enabled": true
-		},
-		{
-			"Name": "Modio",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/1ab22ed2961a4cc19b9151bd072df998"
 		},
 		{
 			"Name": "EnhancedInput",
@@ -54,6 +38,15 @@
 		{
 			"Name": "HintFeature",
 			"Enabled": true
+		},
+		{
+			"Name": "JsonBlueprintUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "Modio",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/1ab22ed2961a4cc19b9151bd072df998"
 		}
 	]
 }
