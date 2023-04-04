@@ -3,7 +3,7 @@
 	"Version": 1,
 	"VersionName": "1.0",
 	"FriendlyName": "BlackCardFeature",
-	"Description": "This feature was developed using Game Features and Modular Gameplay plugins to support black cards in the game",
+	"Description": "This feature was developed using Game Features and Modular Gameplay plugins to support black cards in the game. Revealing black card matches ends the game.",
 	"Category": "Game Features",
 	"CreatedBy": "mod.io",
 	"CreatedByURL": "https://mod.io/",

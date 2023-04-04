@@ -2,8 +2,8 @@
 	"FileVersion": 3,
 	"Version": 1,
 	"VersionName": "1.0",
-	"FriendlyName": "HintButtonFeature",
-	"Description": "This feature was developed using Game Features and Modular Gameplay plugins to add a hint button that reveals all cards for a limited time",
+	"FriendlyName": "HintFeature",
+	"Description": "This feature was developed using the Game Features and Modular Gameplay plugins to add a hint feature that, when the corresponding key is pressed, shows all the cards for a limited time.",
 	"Category": "Game Features",
 	"CreatedBy": "mod.io",
 	"CreatedByURL": "https://mod.io/",
@@ -16,5 +16,5 @@
 	"IsExperimentalVersion": false,
 	"Installed": false,
 	"ExplicitlyLoaded": true,
-	"BuiltInInitialFeatureState": "Active"
+	"BuiltInInitialFeatureState": "Registered"
 }
