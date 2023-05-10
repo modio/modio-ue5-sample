@@ -1,13 +1,13 @@
 ++++
 <a href="https://mod.io"><img src="https://static.mod.io/v1/images/branding/modio-color-dark.svg" alt="mod.io" width="360" align="right"/></a>
 ++++
-# mod.io Unreal Sample Project
+# mod.io UE5 Sample Project
 
 image:https://img.shields.io/badge/license-MIT-brightgreen.svg[alt="License", link="https://github.com/modio/modio-sdk/blob/master/LICENSE"]
 image:https://img.shields.io/discord/389039439487434752.svg?label=Discord&logo=discord&color=7289DA&labelColor=2C2F33[alt="Discord", link="https://discord.mod.io"]
 image:https://img.shields.io/badge/Unreal-5.0%2B-dea309[alt="Unreal", link="https://www.unrealengine.com"]
 
-Welcome to the mod.io Unreal Engine Sample Project repository. This repository provides a simple example integration of the mod.io Unreal Engine plugin for projects built with Unreal Engine 5.0 or later. The sample project is Blueprint-only and demonstrates the core functionality of the mod.io plugin.
+Welcome to the mod.io Unreal Engine 5 Sample Project repository. This repository provides a simple example integration of the https://github.com/modio/modio-ue[mod.io Unreal Engine plugin] for projects built with Unreal Engine 5.0 or later. The sample project is Blueprint-only and demonstrates the core functionality of the mod.io plugin.
 
 == Installation
 
