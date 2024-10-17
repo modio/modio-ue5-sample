@@ -1,3 +1,6 @@
 [submodule "Plugins/Modio"]
 	path = Plugins/Modio
 	url = https://github.com/modio/modio-ue.git
+[submodule "Plugins/ModioComponentUI"]
+	path = Plugins/ModioComponentUI
+	url = https://github.com/modio/modio-ue-component-ui.git
