@@ -1,4 +1,8 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+/*
+ *  Copyright (C) 2024 mod.io Pty Ltd. <https://mod.io>
+ *
+ *  This file is part of the mod.io UE Sample Project.
+ */
 
 #include "ModioUE5Sample.h"
 #include "Modules/ModuleManager.h"
